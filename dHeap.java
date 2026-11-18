@@ -30,7 +30,7 @@ public class dHeap {
     }
 
     /**
-     * Creates a binary max-heap with an initial capacity of 10.
+     * Creates a binary max-heap with the given initial capacity.
      * @param heapSize initial capacity of heap
      */
     public dHeap(int heapSize) {
