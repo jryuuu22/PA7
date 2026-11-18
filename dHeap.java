@@ -31,12 +31,14 @@ public class dHeap {
 
     /**
      * Creates a binary max-heap with an initial capacity of 10.
+     * @param heapSize initial capacity of heap
      */
     public dHeap(int heapSize) {
         this(BINARY_HEAP, heapSize, true);
     }
 
     /**
+     * Creates a d-ary heap with the given branching factor and capacity.
      *
      * @param d branching factor
      * @param heapSize initial capacity of the heap
